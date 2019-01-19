@@ -5,7 +5,7 @@
  * Date: 1/18/2019
  * Time: 7:31 PM
  */
-<?php
+
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
