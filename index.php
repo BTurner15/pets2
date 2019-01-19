@@ -29,11 +29,27 @@ $f3->route('GET /', function() {
 
 //Define a animal type route
 $f3->route('GET /@animal', function($f3, $params) {
-    print_r($params);
 
     $animal = $params['animal'];
-    echo "You like $animal";
-
+    switch($animal) {
+        case 'chicken':
+        echo 'Cluck!';
+            break;
+        case 'dog':
+            echo 'Woof!';
+            break;
+        case 'lion':
+            echo 'Roar!';
+            break;
+        case 'pig':
+            echo 'Onik!';
+            break;
+        case 'goose':
+            echo 'Honk!';
+            break;
+        default:
+            $f3->error(404);
+    }
 
 });
 $f3->run();
