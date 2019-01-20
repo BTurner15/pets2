@@ -4,6 +4,8 @@
  * User: Bruce
  * Date: 1/18/2019
  * Time: 7:31 PM
+
+ * Pair Programming #3 Friday 18 2019
  */
 
 
@@ -23,8 +25,20 @@ $f3->set('DEBUG', 3);
 $f3->route('GET /', function() {
     echo '<h1>My Pets</h1>';
     echo "<a href='order'>Order a pet</a>";
-    //$view = new View;
-    //echo $view->render('home.html');
+});
+
+//Define a order route that renders form1.html
+$f3->route('GET /order', function() {
+    $view = new View();
+    echo $view->render('views/form1.html');
+});
+
+//Define a order2 route that uses POST
+//Get the data from form1 and add it to a session variable
+//Display form2
+$f3->route('POST /order2', function() {
+    $view = new View();
+    echo $view->render('views/form1.html');
 });
 
 //Define a animal type route
