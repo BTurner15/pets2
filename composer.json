@@ -6,7 +6,15 @@
       "email": "BTurner15@mail.greenriver.edu"
     }
   ],
+
+  "name": "sjawandha2/328/pets2",
+  "authors": [
+    {
+      "name": "Sukhveer Jawandha",
+      "email": "sjawandha2@mail.greenriver.edu"
+    }
+  ],
   "require": {
-    "bcosca/fatfree-core": "dev-master"
+    "/fatfree-core": "dev-master"
   }
 }
