@@ -4,17 +4,14 @@
     {
       "name": "Bruce Turner",
       "email": "BTurner15@mail.greenriver.edu"
-    }
-  ],
-
-  "name": "sjawandha2/328/pets2",
-  "authors": [
+    },
     {
-      "name": "Sukhveer Jawandha",
-      "email": "sjawandha2@mail.greenriver.edu"
+      "name": "Robert Hill",
+      "email": "RHill34@mail.greenriver.edu"
     }
   ],
   "require": {
-    "/fatfree-core": "dev-master"
+    "bcosca/fatfree-core": "dev-master"
   }
 }
+

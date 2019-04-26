@@ -5,10 +5,7 @@
  * Date: 1/18/2019
  * Time: 7:31 PM
 
- * Pair Programming #3 Friday 18 2019
- */
-
-
+ * Pair Programming #3 Pets3 */
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
@@ -23,7 +20,7 @@ $f3->set('DEBUG', 3);
 
 //Define a default route
 $f3->route('GET /', function() {
-    echo '<h1>My Pets</h1>';
+    echo '<h1>My Pets3</h1>';
     echo "<a href='order'>Order a pet</a>";
 });
 
