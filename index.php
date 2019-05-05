@@ -19,9 +19,7 @@ $f3 = Base::instance();
 //Turn on Fat-Free error reporting
 $f3->set('DEBUG', 3);
 
-$f3->set('colors', array('red', 'green', 'blue'));
-
-
+$f3->set('colors', array('red', 'green', 'yellow', 'blue'));
 
 //Define a default route
 $f3->route('GET /', function() {
