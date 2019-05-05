@@ -6,13 +6,13 @@
 </head>
 <body>
 <form action="#" method="POST">
-    <input type="text" name="animal" value="Animal">
+    <input type="text" name="animal" value="Canary">
     <br>
     <input type="submit" value="Next">
     <div class="col-sm-3">
-       <check if="{{ isset(@errors['animal']) }}">
-          <p> {{ @errors['animal'] }}</p>
-       </check>
+        <check if="{{ isset(@errors['animal']) }}">
+            <p> {{ @errors['animal'] }}</p>
+        </check>
     </div>
 </form>
 </body>
